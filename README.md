@@ -88,6 +88,3 @@ If you're using Claude Desktop, you only need to add the following configuration
 ## Usage
 Test it out using Claude Desktop.
 
-## License
-
-[MIT License](LICENSE)
