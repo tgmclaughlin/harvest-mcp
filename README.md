@@ -1,6 +1,8 @@
 # Harvest MCP Server
 For interacting with the Harvest time tracking API.
 
+https://www.loom.com/share/b611c5d90a454fb2a7eab99ec0dc3d20?sid=2419d329-bfad-4b10-b245-ec5598b937f7
+
 ## Features
 
 This MCP server provides the following tools for interacting with Harvest:
