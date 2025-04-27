@@ -31,6 +31,41 @@ This MCP server provides the following tools for interacting with Harvest:
 
 ### Installation
 
+#### For Claude Desktop Users
+
+If you're using Claude Desktop, you only need to add the following configuration to your MCP config file:
+
+```json
+"harvest": {
+  "command": "docker",
+  "args": [
+    "run",
+    "-i",
+    "--rm",
+    "-e",
+    "HARVEST_ACCOUNT_ID",
+    "-e",
+    "HARVEST_TOKEN",
+    "tommcl/harvest-mcp"
+  ],
+  "env": {
+    "HARVEST_ACCOUNT_ID": "YOUR_ACCOUNT_ID",
+    "HARVEST_TOKEN": "YOUR_API_TOKEN"
+  }
+}
+```
+
+> **Note**: You need to have Docker Desktop installed and running.
+
+#### Option 1: Pull from Docker Hub (For Other MCP Clients)
+
+1. Pull the Docker image directly from Docker Hub:
+   ```bash
+   docker pull tommcl/harvest-mcp
+   ```
+
+#### Option 2: Build Locally (For Development)
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/harvest-mcp.git
@@ -42,26 +77,7 @@ This MCP server provides the following tools for interacting with Harvest:
    docker build -t mcp/harvest .
    ```
 
-3. Add the following configuration to your MCP config:
-   ```json
-   "harvest": {
-     "command": "docker",
-     "args": [
-       "run",
-       "-i",
-       "--rm",
-       "-e",
-       "HARVEST_ACCOUNT_ID",
-       "-e",
-       "HARVEST_TOKEN",
-       "mcp/harvest"
-     ],
-     "env": {
-       "HARVEST_ACCOUNT_ID": "YOUR_ACCOUNT_ID",
-       "HARVEST_TOKEN": "YOUR_API_TOKEN"
-     }
-   }
-   ```
+   Then use "mcp/harvest" instead of "tommcl/harvest-mcp" in your MCP config.
 
    > **Note**: Replace the example credentials with your actual Harvest API credentials.
 
