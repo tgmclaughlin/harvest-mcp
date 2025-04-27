@@ -56,6 +56,8 @@ If you're using Claude Desktop, you only need to add the following configuration
 ```
 
 > **Note**: You need to have Docker Desktop installed and running.
+>
+> **Credentials**: You can obtain your Personal Access Token (PAT) and Account ID from the [Harvest Developer Tools page](https://id.getharvest.com/developers).
 
 #### Option 1: Pull from Docker Hub (For Other MCP Clients)
 
@@ -79,7 +81,7 @@ If you're using Claude Desktop, you only need to add the following configuration
 
    Then use "mcp/harvest" instead of "tommcl/harvest-mcp" in your MCP config.
 
-   > **Note**: Replace the example credentials with your actual Harvest API credentials.
+   > **Note**: Replace the example credentials with your actual Harvest API credentials. You can obtain your Personal Access Token (PAT) and Account ID from the [Harvest Developer Tools page](https://id.getharvest.com/developers).
 
 ## Usage
 Test it out using Claude Desktop.
