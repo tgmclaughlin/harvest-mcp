@@ -1,7 +1,7 @@
 # Harvest MCP Server
 For interacting with the Harvest time tracking API.
 
-https://www.loom.com/share/b611c5d90a454fb2a7eab99ec0dc3d20?sid=2419d329-bfad-4b10-b245-ec5598b937f7
+<img width="1728" alt="image" src="https://github.com/user-attachments/assets/48fd5805-bf07-4852-b56c-daf8b92ace40" />
 
 ## Features
 
