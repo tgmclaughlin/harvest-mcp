@@ -3,6 +3,10 @@ For interacting with the Harvest time tracking API.
 
 <img width="1728" alt="image" src="https://github.com/user-attachments/assets/48fd5805-bf07-4852-b56c-daf8b92ace40" />
 
+https://www.loom.com/share/b611c5d90a454fb2a7eab99ec0dc3d20?sid=edad9a28-1bbb-452c-838d-721bc435908f
+
+
+
 ## Features
 
 This MCP server provides the following tools for interacting with Harvest:
